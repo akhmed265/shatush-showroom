@@ -2,20 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  list-style: none;
 }
 
-.header-nav {
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   border-bottom: 1px solid #e2dede;
 }
 
-.header-logo {
-  padding: 15px;
+.header-nav {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-logo__link {
+  padding: 15px 0 10px 15px;
 }
 
 .img-logo {
@@ -23,19 +33,100 @@
   width: auto;
 }
 
-.header__menu {
+.main-menu {
   display: flex;
-  align-items: center;
-  margin-right: 15px;
+  list-style: none;
 }
 
-.header__link {
+.main-menu__link {
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
   color: black;
   padding: 10px 20px;
   cursor: pointer;
+  text-decoration: none;
 }
 
+.brand-list {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding-top: 30px;
+}
 
+.brand {
+  position: relative;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 328px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.brand::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s linear;
+}
+
+.brand:hover::after {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.dombele {
+  background-image: url(../images/photo/domrebel.jpg);
+}
+
+.limitato {
+  background-image: url(../images/photo/limitato.jpg);
+}
+
+.cotton_citizen {
+  background-image: url(../images/photo/cotton_citizen.jpg);
+}
+
+.finders_keepers {
+  background-image: url(../images/photo/finders_keepers.jpg);
+}
+
+.keepsake {
+  background-image: url(../images/photo/keepsake.jpg);
+}
+
+.the_fifth_label {
+  background-image: url(../images/photo/the_fifth_label.jpg);
+}
+
+.elliatt {
+  background-image: url(../images/photo/elliatt.jpg);
+}
+
+.storm-marie {
+  background-image: url(../images/photo/storm-marie.jpg);
+}
+
+.wildfox {
+  background-image: url(../images/photo/wildfox.jpg);
+}
+
+.brand__name {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
