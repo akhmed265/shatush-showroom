@@ -17,6 +17,7 @@ img {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e2dede;
+  margin-bottom: 25px;
 }
 
 .header-nav {
@@ -161,13 +162,52 @@ img {
 .social {
   display: flex;
   align-items: center;
+  list-style: none;
 }
 
 .instagram {
-  width: 25px;
+  width: 35px;
+  padding: 0 5px;
 }
 
 .facebook {
-  margin-right: 15px;
-  width: 21px;
+  width: 30px;
+  padding: 0 5px;
+}
+
+/* ABOUT */
+
+.about-content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.about__title {
+  color: #282828;
+  margin: 30px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 33px;  
+}
+
+.about-front {
+  display: flex;
+}
+
+.about__photo {
+  width: 360px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.about__text {
+  
+}
+
+.about-discription {
+  margin-bottom: 5px;
+  line-height: 1.6;
+  font-size: 15px;
 }
