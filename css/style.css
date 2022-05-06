@@ -48,6 +48,10 @@ img {
   text-decoration: none;
 }
 
+.page-content {
+  margin-bottom: 40px;
+}
+
 .brand-list {
   max-width: 1050px;
   margin-left: auto;
@@ -87,39 +91,39 @@ img {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.dombele {
+.brand_domrebel {
   background-image: url(../images/photo/domrebel.jpg);
 }
 
-.limitato {
+.brand_limitato {
   background-image: url(../images/photo/limitato.jpg);
 }
 
-.cotton_citizen {
+.brand_citizen {
   background-image: url(../images/photo/cotton_citizen.jpg);
 }
 
-.finders_keepers {
+.brand_keepers {
   background-image: url(../images/photo/finders_keepers.jpg);
 }
 
-.keepsake {
+.brand_keepsake {
   background-image: url(../images/photo/keepsake.jpg);
 }
 
-.the_fifth_label {
+.brand_label {
   background-image: url(../images/photo/the_fifth_label.jpg);
 }
 
-.elliatt {
+.brand_elliatt {
   background-image: url(../images/photo/elliatt.jpg);
 }
 
-.storm-marie {
+.brand_storm-marie {
   background-image: url(../images/photo/storm-marie.jpg);
 }
 
-.wildfox {
+.brand_wildfox {
   background-image: url(../images/photo/wildfox.jpg);
 }
 
@@ -129,4 +133,41 @@ img {
   color: white;
   font-size: 25px;
   font-weight: bold;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282828;
+  margin: 0 auto;
+  color: white;
+  line-height: 175%;
+  text-align: center;
+  width: 100%;
+  padding: 25px 150px;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.instagram {
+  width: 25px;
+}
+
+.facebook {
+  margin-right: 15px;
+  width: 21px;
 }
