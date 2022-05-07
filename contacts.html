@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/action.css" />
+    <title>Contacts | Shatush Showroom</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a href="#" class="header-logo__link">
+        <img src="./images/logo.jpg" alt="" class="img-logo" />
+      </a>
+
+      <nav class="header-nav">
+        <ul class="main-menu">
+          <li class="main-menu__item">
+            <a href="index.html" class="main-menu__link">Home</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="about.html" class="main-menu__link">About</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="collections.html" class="main-menu__link">Collections</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contacts-content">
+      <h1 class="page__title">Contacts</h1>
+      <div class="contacts-front">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.7644042923994!2d9.211456315429844!3d45.4544034791008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c427b74536a1%3A0x5d5a8e303dfd7312!2zVmlhIENvbWVsaWNvLCAzMCwgMjAxMzUgTWlsYW5vIE1JLCDQmNGC0LDQu9C40Y8!5e0!3m2!1sru!2sru!4v1651922487852!5m2!1sru!2sru"
+          width="48%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="contacts__map"
+        ></iframe>
+        <div class="contacts">
+          <p>
+            E-mail:
+            <contacts-mail
+              ><a href="info@shatush-showroom.com" class="contacts-mail__link"
+                >info@shatush-showroom.com</a
+              ></contacts-mail
+            >
+          </p>
+          <p class="contacts-phone">
+            Phone:
+            <a href="tel:+390255191253" class="contacts-phone__number"
+              >+39 02 5519 1253</a
+            >
+          </p>
+          <p class="address">Address: via Comelico 30, 20135, Milano Italy</p>
+          <div class="contacts-social">
+            <a href="#" class="contacts-social__link">
+              <i
+                class="fa fa-facebook contacts-social-icon"
+                aria-hidden="true"
+              ></i>
+            </a>
+            <a href="#" class="contacts-social__link">
+              <i
+                class="fa fa-instagram contacts-social-icon"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+
+          <div class="contacts__form">
+            <input
+              type="text"
+              class="contacts__input-name contacts__input"
+              placeholder=" Name Surname "
+            />
+            <div class="contacts-email">
+              <label for="" class="email-label">
+                E-mail
+                <span class="email-error">*</span>
+              </label>
+              <input
+                type="email"
+                class="contacts-email__input contacts__input"
+              />
+            </div>
+            <input
+              type="phone"
+              placeholder="Phone"
+              class="contacts-phone__input contacts__input"
+            />
+            <textarea
+              id="edit-submitted-mess"
+              placeholder="Message"
+              name="submitted[mess]"
+              cols="60"
+              rows="8"
+              class="contacts-messange__input"
+            ></textarea>
+            <button class="contacts__button" type="button">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <p class="description">
+        © 2022, Shatush Showroom. - design by
+        <a href="http://trdesign.pro/" class="footer__link">TRDESIGN</a>
+      </p>
+      <ul class="social">
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <i class="fa fa-facebook social__icon" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <i class="fa fa-instagram social__icon" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -5,3 +5,20 @@
 .social__link:hover {
   opacity: 0.6;
 }
+
+.contacts-mail__link:hover {
+  text-decoration: underline;
+}
+
+.contacts-phone__number:hover {
+  text-decoration: underline;
+}
+
+.contacts-social-icon:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+
+.contacts__input:invalid {
+  border-color: red;
+}
