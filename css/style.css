@@ -345,4 +345,31 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
+}
+
+/* DOMREBEL */
+
+.brand-content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.brand-front {
+  display: flex;
+}
+
+.brand__photo {
+  padding: 0 15px;
+  height: min-content;
+}
+
+.brand-discription {
+  padding-left: 20px;
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: black;
 }

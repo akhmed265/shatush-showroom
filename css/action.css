@@ -2,6 +2,10 @@
   opacity: 0.6;
 }
 
+.footer__link:hover {
+  text-decoration: underline;
+}
+
 .social__link:hover {
   opacity: 0.6;
 }
@@ -21,4 +25,9 @@
 
 .contacts__input:invalid {
   border-color: red;
+}
+
+.contacts__button:hover {
+  background: #777;
+  transition: 0.3s;
 }
