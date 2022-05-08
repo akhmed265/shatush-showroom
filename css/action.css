@@ -1,3 +1,12 @@
+.brand:focus {
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
+.main-menu__link:hover {
+  text-decoration: underline;
+}
+
 .header__link:hover {
   opacity: 0.6;
 }
