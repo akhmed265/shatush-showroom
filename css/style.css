@@ -148,7 +148,7 @@ img {
 
 .page-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   background-color: #282828;
   margin: 0 auto;
@@ -178,13 +178,12 @@ img {
 }
 
 .fa-instagram {
-  width: 35px;
+  width: 40px;
   padding: 0 5px;
 }
 
 .fa-facebook {
-  margin-right: 20px;
-  width: 30px;
+  width: 40px;
   padding: 0 5px;
 }
 
