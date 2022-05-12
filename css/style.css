@@ -346,16 +346,14 @@ img {
 }
 
 .brand-detail__row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 424px 576px;
 }
 
 .brand-detail__title {
   text-align: center;
   padding-bottom: 40px;
   font-size: 33px;
-}
-
-.brand-detail__slider {
 }
 
 .brand-detail__photo {
@@ -368,5 +366,4 @@ img {
   font-size: 15px;
   margin-bottom: 5px;
   color: black;
-  width: 56%;
 }
