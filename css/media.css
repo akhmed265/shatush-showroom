@@ -1,0 +1,87 @@
+@media only screen and (max-width: 800px) { 
+  .page-header {
+    width: 100%;
+  }
+
+  .page-content {
+    max-width: 1050px;
+  }
+
+  .brand-list {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .page-footer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-nav {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 3;
+  }
+
+  .header-nav_show {
+    display: block;
+  }
+
+  .main-menu {
+    display: block;
+  }
+
+  .main-menu__link {
+    display: block;
+    background-color: #fff;
+    text-align: right;
+    border-bottom: 1px solid #eee;
+  }
+
+  .brand__name {
+    text-align: center;
+  }
+
+  .brand-detail__row {
+    display: block;
+  }
+
+  .about__photo {
+    width: 360px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
+  .brand-detail__description {
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: black;
+  }
+
+  .collections-brand-list {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .brand-detail__row {
+    display: block;
+  }
+
+  .brand-detail__text:first-child {
+    margin-top: 20px;
+  }
+}

@@ -14,18 +14,29 @@ img {
 }
 
 .page-header {
+  position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #e2dede;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-nav-toggle {
+  border: none;
+  background-color: transparent;
+  font-size: 36px;
+  padding: 14px;
 }
 
 .header-nav {
   margin-top: auto;
   margin-bottom: auto;
-}
+} 
 
 .header-logo__link {
-  padding: 15px 0 10px 15px;
+  padding: 15px 0 10px 0;
 }
 
 .img-logo {
@@ -341,8 +352,7 @@ img {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 15px;
 }
 
 .brand-detail__row {
