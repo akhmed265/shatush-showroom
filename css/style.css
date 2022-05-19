@@ -24,6 +24,7 @@ img {
 }
 
 .header-nav-toggle {
+  display: none;
   border: none;
   background-color: transparent;
   font-size: 36px;
@@ -222,10 +223,6 @@ img {
   margin-bottom: 5px;
   line-height: 1.6;
   font-size: 15px;
-}
-
-.about-footer {
-  margin-top: 122px;
 }
 
 /* COLLECYIONS */
