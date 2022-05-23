@@ -73,7 +73,7 @@
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
   }
@@ -128,5 +128,9 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     justify-content: center;
+  }
+
+  .collections-brand-list {
+    grid-template-columns: repeat(1, 1fr);
   }
 } 
