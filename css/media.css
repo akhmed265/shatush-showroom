@@ -18,10 +18,6 @@
     justify-content: center;
   }
 
-  .page-footer {
-    justify-content: center;
-  }
-
   .header-nav {
     display: none;
     position: absolute;
@@ -120,6 +116,17 @@
   }
 }
 
+@media (max-width: 600px) {
+  .page-footer {
+    display: block;
+  }
+
+  .social {
+    justify-content: center;
+    padding-top: 10px;
+  }
+}
+
 @media (max-width: 500px) {
   .brand-list {
     margin-left: auto;
@@ -133,4 +140,5 @@
   .collections-brand-list {
     grid-template-columns: repeat(1, 1fr);
   }
+
 } 

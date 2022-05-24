@@ -160,14 +160,14 @@ img {
 
 .page-footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   background-color: #282828;
   margin: 0 auto;
   color: white;
   text-align: center;
   min-height: 70px;
-  padding: 25px 150px;
+  padding: 25px 5px;
 }
 
 .description {
@@ -316,7 +316,7 @@ img {
   padding-left: 10px;
   height: 40px;
   font-size: 15px;
-  margin-bottom: 1em;
+  margin-bottom: 15px;
   border: 1px solid #dedede;
 }
 
@@ -373,4 +373,5 @@ img {
   font-size: 15px;
   margin-bottom: 5px;
   color: black;
+  font-weight: 400;
 }
