@@ -33,7 +33,7 @@
 }
 
 .contacts__input:invalid {
-  border-color: red;
+  border-color: #ff0000;
 }
 
 .contacts__button:hover {

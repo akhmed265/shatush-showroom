@@ -1,6 +1,11 @@
+@media (max-width: 1200px) {
+  .footer__container {
+    max-width: 700px;
+  }
+}
+
 
 @media (max-width: 950px) {
-
   .page-header {
     width: 100%;
   }
@@ -57,14 +62,6 @@
     margin-right: 0;
   }
 
-  /* .brand-detail__description {
-    padding: 0;
-    margin-bottom: 0;
-    line-height: 1.6;
-    font-size: 15px;
-    color: black;
-  } */
-
   .collections-brand-list {
     margin-left: auto;
     margin-right: auto;
@@ -114,11 +111,16 @@
   .brand-detail__description {
     text-align: start;
   }
+
+  .footer__container {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
-  .page-footer {
+  .container {
     display: block;
+    text-align: center;
   }
 
   .social {
@@ -140,5 +142,10 @@
   .collections-brand-list {
     grid-template-columns: repeat(1, 1fr);
   }
+}
 
-} 
+@media (max-width: 500px) {
+  .footer__container {
+    flex-direction: column;
+  }
+}

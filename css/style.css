@@ -54,7 +54,7 @@ img {
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
-  color: black;
+  color: #000;
   padding: 10px 20px;
   cursor: pointer;
   text-decoration: none;
@@ -153,21 +153,27 @@ img {
 .brand__name {
   position: relative;
   z-index: 2;
-  color: white;
+  color: #fff;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .page-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #282828;
-  margin: 0 auto;
-  color: white;
-  text-align: center;
+  color: #fff;
   min-height: 70px;
   padding: 25px 5px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1175px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .description {
@@ -176,7 +182,7 @@ img {
 
 .footer__link {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 
 .social {
@@ -186,7 +192,7 @@ img {
 }
 
 .social__link {
-  color: white;
+  color: #fff;
 }
 
 .fa-instagram {
@@ -269,11 +275,11 @@ img {
 .contacts-phone__number,
 .contacts-mail__link {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 
 .contacts-social__link {
-  color: black;
+  color: #000;
 }
 
 .contacts-social-icon {
@@ -299,7 +305,7 @@ img {
 }
 
 .contacts-email span {
-  color: red;
+  color: #ff0000;
 }
 
 .email-label {
@@ -330,8 +336,8 @@ img {
 }
 
 .contacts__button {
-  color: white;
-  background-color: black;
+  color: #fff;
+  background-color: #000;
   font-size: 15px;  
   border: none;
   width: 150px;
@@ -372,6 +378,6 @@ img {
   line-height: 1.6;
   font-size: 15px;
   margin-bottom: 5px;
-  color: black;
+  color: #000;
   font-weight: 400;
 }
