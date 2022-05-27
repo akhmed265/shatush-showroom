@@ -1,6 +1,6 @@
 // Настройка слайдера
 if (window.jQuery) {
-  const brandSlider = jQuery('.brand-detail__slider');
+  const brandSlider = jQuery('.slider');
 
   jQuery(document).ready(function() {
     jQuery(brandSlider).lightSlider({
@@ -14,7 +14,7 @@ if (window.jQuery) {
 //  Настройка слайдера End
 
 // menu
-const menuToggleBtn = document.querySelector('.header-nav-toggle');
+const menuToggleBtn = document.querySelector('.page-header__toggle-menu');
 const mainMenu = document.querySelector('.header-nav');
 
 menuToggleBtn.addEventListener('click', function() {

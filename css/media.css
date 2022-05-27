@@ -1,5 +1,5 @@
 @media (max-width: 1200px) {
-  .footer__container {
+  .page-footer__container {
     max-width: 700px;
   }
 }
@@ -23,7 +23,7 @@
     justify-content: center;
   }
 
-  .header-nav {
+  .main-menu-nav {
     display: none;
     position: absolute;
     right: 0;
@@ -31,7 +31,7 @@
     z-index: 3;
   }
 
-  .header-nav-toggle {
+  .page-header__toggle-menu {
     display: block;
   }
 
@@ -39,7 +39,7 @@
     display: block;
   }
 
-  .main-menu {
+  .main-menu__list {
     display: block;
   }
 
@@ -54,13 +54,6 @@
     text-align: center;
   }
 
-  .about__photo {
-    width: 100%;
-    height: auto;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
 
   .collections-brand-list {
     margin-left: auto;
@@ -87,32 +80,28 @@
 }
 
 @media (max-width: 800px) {
-  .brand-detail__row {
+  .page-content__row {
     display: block;
     text-align: center;
   }
 
-  .brand__photo {
+  .slider__photo {
     width: 400px;
   }
 
-  .about__photo {
-    width: 80%;
-  }
-
-  .brand-detail__text:first-child {
+  .page-content__text:first-child {
     margin-top: 20px;
   }
 
-  .brand-detail__text {
+  .page-content__text {
     margin-bottom: 5px;
   }
 
-  .brand-detail__description {
+  .page-content__description {
     text-align: start;
   }
 
-  .footer__container {
+  .page-footer__container {
     max-width: 100%;
   }
 }
@@ -145,7 +134,7 @@
 }
 
 @media (max-width: 500px) {
-  .footer__container {
+  .page-footer__container {
     flex-direction: column;
   }
 }
