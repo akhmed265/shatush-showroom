@@ -288,17 +288,12 @@ img {
   padding: 0 1%;
 }
 
-.contacts-phone__number,
-.contacts-mail__link {
+.contacts__link {
   text-decoration: none;
   color: #000;
 }
 
-.contacts-phone__number:hover {
-  text-decoration: underline;
-}
-
-.contacts-mail__link:hover {
+.contacts__link:hover {
   text-decoration: underline;
 }
 
@@ -327,20 +322,10 @@ img {
   margin-top: 10px;
 }
 
-.contacts__input:invalid {
-  border-color: #ff0000;
-}
-
-
-
 .contacts-email {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.contacts-email span {
-  color: #ff0000;
 }
 
 .email-label {
@@ -361,7 +346,7 @@ img {
   border: 1px solid #dedede;
 }
 
-.contacts-messange__input {
+.contacts__input_messange {
   width: 100%;
   color: #282828;
   padding-left: 10px;

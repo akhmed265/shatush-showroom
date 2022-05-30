@@ -59,14 +59,14 @@
           <p>
             E-mail:
             <contacts-mail
-              ><a href="info@shatush-showroom.com" class="contacts-mail__link"
+              ><a href="info@shatush-showroom.com" class="contacts__link"
                 >info@shatush-showroom.com</a
               ></contacts-mail
             >
           </p>
           <p class="contacts-phone">
             Phone:
-            <a href="tel:+390255191253" class="contacts-phone__number"
+            <a href="tel:+390255191253" class="contacts__link"
               >+39 02 5519 1253</a
             >
           </p>
@@ -86,26 +86,24 @@
             </a>
           </div>
 
-          <div class="contacts__form">
+          <form class="contacts__form">
             <input
               type="text"
-              class="contacts__input-name contacts__input"
-              placeholder=" Name Surname "
+              class="contacts__input"
+              placeholder="Name Surname"
+              required
             />
-            <div class="contacts-email">
-              <label for="" class="email-label">
-                E-mail
-                <span class="email-error">*</span>
-              </label>
               <input
                 type="email"
-                class="contacts-email__input contacts__input"
+                class="contacts__input"
+                placeholder="Email"
+                required
               />
-            </div>
             <input
               type="phone"
+              class="contacts__input"
               placeholder="Phone"
-              class="contacts-phone__input contacts__input"
+              required
             />
             <textarea
               id="edit-submitted-mess"
@@ -113,14 +111,13 @@
               name="submitted[mess]"
               cols="60"
               rows="8"
-              class="contacts-messange__input"
+              class="contacts__input_messange"
             ></textarea>
-            <button class="contacts__button" type="button">Send</button>
-          </div>
+            <button class="contacts__button" type="submit">Send</button>
+          </form>
         </div>
       </div>
     </div>
-
     <footer class="page-footer">
       <div class="page-footer__container">
         <p class="page-footer__copyright">© 2022, Shatush Showroom.</p>
