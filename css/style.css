@@ -216,12 +216,12 @@ img {
   opacity: 0.6;
 }
 
-.fa-instagram {
+.social__icon {
   width: 40px;
   padding: 0 5px;
 }
 
-.fa-facebook {
+.social__icon {
   width: 40px;
   padding: 0 5px;
 }
@@ -232,7 +232,7 @@ img {
   color: #282828;
   margin-bottom: 30px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 33px;
 }
 
@@ -280,7 +280,7 @@ img {
   font-size: 15px;
 }
 
-.contacts p {
+.contacts div {
   margin: 5px 0;
 }
 

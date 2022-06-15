@@ -10,7 +10,6 @@
     />
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/action.css" />
     <link rel="stylesheet" href="./css/media.css" />
     <title>Contacts | Shatush Showroom</title>
   </head>
@@ -54,23 +53,23 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           class="contacts__map"
-        ></iframe>
+        >
+      </iframe>
+      
         <div class="contacts">
-          <p>
+          <div class="contacts-mail">
             E-mail:
-            <contacts-mail
-              ><a href="info@shatush-showroom.com" class="contacts__link"
-                >info@shatush-showroom.com</a
-              ></contacts-mail
-            >
-          </p>
-          <p class="contacts-phone">
+              <a href="info@shatush-showroom.com"  class="contacts__link"
+                >info@shatush-showroom.com</a>
+          </div>
+
+          <div class="contacts-phone">
             Phone:
             <a href="tel:+390255191253" class="contacts__link"
               >+39 02 5519 1253</a
             >
-          </p>
-          <p class="address">Address: via Comelico 30, 20135, Milano Italy</p>
+          </div>
+          <div class="address">Address: via Comelico 30, 20135, Milano Italy</div>
           <div class="contacts-social">
             <a href="#" class="contacts-social__link">
               <i
@@ -93,12 +92,12 @@
               placeholder="Name Surname"
               required
             />
-              <input
-                type="email"
-                class="contacts__input"
-                placeholder="Email"
-                required
-              />
+            <input
+              type="email"
+              class="contacts__input"
+              placeholder="Email"
+              required
+            />
             <input
               type="phone"
               class="contacts__input"
