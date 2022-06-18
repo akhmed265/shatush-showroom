@@ -15,9 +15,9 @@ if (window.jQuery) {
 
 // menu
 const menuToggleBtn = document.querySelector('.page-header__toggle-menu');
-const mainMenu = document.querySelector('.header-nav');
+const mainMenu = document.querySelector('.main-menu');
 
 menuToggleBtn.addEventListener('click', function() {
-  mainMenu.classList.toggle('header-nav_show');
+  mainMenu.classList.toggle('main-menu__list');
 });
 // menu end
