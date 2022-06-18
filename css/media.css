@@ -1,0 +1,140 @@
+@media (max-width: 1200px) {
+  .page-footer__container {
+    max-width: 700px;
+  }
+}
+
+
+@media (max-width: 950px) {
+  .page-header {
+    width: 100%;
+  }
+
+  .page-content {
+    max-width: 1050px;
+  }
+
+  .brand-list {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .main-menu-nav {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 3;
+  }
+
+  .page-header__toggle-menu {
+    display: block;
+  }
+
+  .header-nav_show {
+    display: block;
+  }
+
+  .main-menu__list {
+    display: block;
+  }
+
+  .main-menu__link {
+    display: block;
+    background-color: #fff;
+    text-align: right;
+    border-bottom: 1px solid #eee;
+  }
+
+  .brand__name {
+    text-align: center;
+  }
+
+
+  .collections-brand-list {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .contacts-front {
+    display: block;
+  }
+
+  .contacts__map {
+    width: 100%;
+    padding: 0;
+  }
+
+  .contacts {
+    width: 100%;
+    padding: 20px 0 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .page-content__row {
+    display: block;
+    text-align: center;
+  }
+
+  .slider__photo {
+    width: 400px;
+  }
+
+  .page-content__text:first-child {
+    margin-top: 20px;
+  }
+
+  .page-content__text {
+    margin-bottom: 5px;
+  }
+
+  .page-content__description {
+    text-align: start;
+  }
+
+  .page-footer__container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+
+  .social {
+    justify-content: center;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .brand-list {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .collections-brand-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .page-footer__container {
+    flex-direction: column;
+  }
+}
